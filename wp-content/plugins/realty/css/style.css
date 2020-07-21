@@ -1,0 +1,2093 @@
+.clear {
+	clear: both;
+}
+.rlt_tab_wrapper {
+	position: relative;
+}
+.rlt_tab_wrapper #rlt_body_tabs {
+	margin-top: 90px;
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+}
+.rlt_search_options .rlt_tab_wrapper #rlt_body_tabs {
+	margin-top: 60px;
+}
+#rlt_body_tabs #main_tabs {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.rlt_search_options #rlt_body_tabs #main_tabs {
+	margin: 0 auto;
+}
+.rlt_tabs {
+	position: absolute;
+	top: -42px;
+	left: 3px;
+	width: 100%;
+}
+.rlt_search_options .rlt_tabs {
+	z-index: 2;
+}
+.rlt_tabs .tab {
+	display: inline;
+	padding: 16px 25px 16px;
+	background: #000;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: 700;
+	margin-left: 4px;
+	cursor: pointer;
+	opacity: 0.5;
+}
+.rlt_tabs .tab.active {
+	opacity: 1;
+	background: #FFF;
+	color: #171b1d;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	padding: 16px 30px 25px;
+	position: relative;
+	z-index: 1;
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+}
+.rlt_search_options .tab,
+.footer-content .tab  {
+	padding: 16px 14px 16px;
+}
+.rlt_search_options .tab.active,
+.footer-content .tab.active {
+	padding: 16px 14px 25px;
+}
+
+.rlt_tabs .tab span {
+	opacity: 1;
+}
+.rlt_tabs .tab.active span {
+	opacity: 1;
+}
+.rlt_tab_block {
+	background-color: #fff;
+	margin-bottom: 4px;
+	padding: 30px 30px 23px;
+	z-index: 2;
+	display: none;
+}
+.rlt_search_options .rlt_tab_block {
+	padding: 10px;
+	margin-bottom: 0;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+.rlt_tab_block .cover, .rlt_home_content_tab .cover {
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #FFF;
+	z-index: 2;
+}
+.rlt_home_content_tab .cover {
+	top: -20px;
+	left: -17px;
+	max-width: 453px;
+	width: calc(100% + 30px);
+}
+.rlt_tab_block.active {
+	display: block;
+}
+.rlt_tab_block input, .rlt_tab_block select {
+	padding: 14px;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+#main_tabs .rlt_tab_block input[type="text"] {
+	margin: 0;
+	width: 100%;
+	padding: 15px 14px 14px 33px;
+	background: url('../images/input_bg.jpg') 17px 17px no-repeat #e8e9eb;
+	height: auto;
+	border: 3px solid #d9d9d9;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.rlt_search_options #main_tabs #rlt_location {
+	background-image: none;
+	height: auto;
+	margin: 0;
+	padding: 8px 5px 9px 10px;
+	max-width: 100%;
+}
+.rlt_tab_block select {
+	width: 75%;
+}
+#main_tabs .rlt_tab_block input[type="submit"] {
+	height: 52px;
+	background: url('../images/submit_search.png') no-repeat top center #F26E50;
+	border: none;
+	width: 100%;
+	float: none;
+	display: block;
+	margin: 10px 0 0;
+	color: transparent;
+	text-transform: uppercase;
+}
+#main_tabs .rlt_tab_block input[type="submit"]:hover {
+	background: url('../images/submit_search.png') no-repeat top center #f29580;
+}
+.rlt_search_options #main_tabs .rlt_tab_block input[type="submit"] {
+	background: url("../images/update.png") no-repeat scroll 90% 13px #f26e50;
+	font-size: 13px;
+	margin: 25px 0 0;
+	padding: 10px 38px 13px 10px;
+	height: auto;
+	color: #fff;
+}
+#main_tabs .rlt-select,
+.rlt_home_full_wrapper .rlt-select {
+	display: none;
+}
+#rlt_body_tabs #main_tabs .select2-container {
+	margin: 10px 0 0;
+	width: 100%;
+}
+.rlt_search_options #main_tabs .rlt_tab_block_2 .property {
+	padding-bottom: 0;
+	border: 0;
+}
+.rlt_search_options #main_tabs .rlt_tab_block_2 .bathrooms {
+	margin-top: 0;
+}
+#main_tabs .rlt_prices {
+	width: 100%;
+	padding: 15px 0 8px;;
+	margin: 19px 0 9px;
+	border-top: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+}
+#main_tabs .rlt_prices span {
+	font-weight: 700;
+	padding: 0;
+}
+.page-template-realestate-home-php #rlt_heading_recent_items img.wp-post-image {
+	left: 0;
+	top: 0;
+}
+.page-template-realestate-home-php #rlt_heading_recent_items img.wp-post-image {
+	position: relative;
+}
+.rlt_scroller {
+	margin: 16px 0 18px;
+}
+.rlt_prices .rlt_scroller {
+	margin: 16px 0 15px;
+}
+.rlt_scroller .rlt_scroller_path {
+	height: 7px;
+	background: #e8e9ea;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	position: relative;
+	margin-left: 0;
+	margin-right: 1em;
+}
+.rlt_scroller #rlt_price {
+	width: 100%;
+	position: relative;
+	margin: 0;
+	height: 7px;
+	top: 0;
+	left: 0px;
+}
+.rlt_scroller .ui-slider-range {
+	background: #F26E50;
+	height: 100%;
+	margin-left: 1px;
+	margin-right: 1px;
+	position: relative;
+}
+.rlt_scroller .ui-slider-handle {
+	width: 15px;
+	height: 15px;
+	background: url('../images/scroller.png');
+	position: absolute;
+	top: -4px;
+	cursor: move;
+	margin-left: -0.5em;
+}
+.rlt_scroller .rlt_scroller_path .rlt_scroller_start {
+	left: 0;
+}
+.rlt_scroller .rlt_scroller_path .rlt_scroller_end {
+	right: 0;
+}
+.rlt_home_content_full .home_image img {
+	width: 420px;
+	height: 320px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+.rlt_home_content_full .rlt_home_slides {
+	margin-top: 16px;
+}
+.rlt_thumbnails_holder .slick-list.draggable {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.rlt_home_content_full .rlt_home_slides img.slick-current {
+	outline: 2px solid #CDCDCD;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	margin-top: 1px;
+}
+.rlt_home_content_full .rlt_home_slides .rlt_thumbnails {
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	margin-right: -20px;
+}
+.rlt_home_content_full .rlt_home_slides .rlt_thumbnails img {
+	margin-left: 17px;
+	cursor: pointer;
+	max-height: 80px;
+}
+.rlt_home_content_full .rlt_home_slides .rlt_thumbnails #rlt_thumbnails_holder {
+	margin-left: 0;
+	position: relative;
+	left: -6px;
+	text-align: left;
+}
+.rlt_home_content_full .rlt_home_slides .slick-prev,
+.rlt_home_content_full .rlt_home_slides .slick-next {
+	width: 14px;
+	height: 100%;
+	display: inline-block;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	cursor: pointer;
+	position: absolute;
+	z-index: 1;
+	color: transparent;
+	text-indent: -10000px;
+	top: 0px;
+}
+.rlt_home_content_full .rlt_home_slides .slick-prev {
+	float: left;
+	background: url('../images/slide_prev.png') 5px 49% no-repeat #aaa;
+	left: 6px;
+}
+.rlt_home_content_full .rlt_home_slides .slick-next {
+	float: right;
+	background: url('../images/slide_next.png') 5px 49% no-repeat #aaa;
+	right: -5px;
+}
+.rlt_home_content_full .rlt_home_slides .disabled {
+	background-color: #e8e9ea;
+	cursor: default;
+}
+#rlt_home_info_full .rlt_home_content_full {
+	background: #FFF;
+	width: 418px;
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	padding: 20px 20px 20px 17px;
+	position: relative;
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+	height: 420px;
+	box-sizing: unset;
+	-moz-box-sizing: unset;
+}
+.rtl #rlt_home_info_full .rlt_home_content_full {
+	left: -112px;
+}
+#rlt_home_info_full .rlt_home_description {
+	padding: 14px 0;
+	margin-left: -3px;
+}
+#rlt_home_info_full .rlt_home_description h3,
+#rlt_home_info_full .rlt_home_description h4 {
+	font-size: 18px;
+	padding-top: 10px;
+}
+#rlt_home_info_full .rlt_home_description p {
+	font-size: 13px;
+	margin-top: 5px;
+	margin-bottom: 7px;
+	line-height: 22px;
+}
+#rlt_home_info_full .rlt_home_description ul {
+	display: inline-block;
+	list-style: none;
+	margin: 6px 0 0 0;
+	padding-left: 20px;
+}
+#rlt_home_info_full .rlt_home_description ul li {
+	line-height: 21px;
+	position: relative;
+	float: left;
+	width: 130px;
+	margin-right:15px;
+}
+.rtl #rlt_home_info_full .rlt_home_description ul li {
+	float: right;
+}
+#rlt_home_info_full .rlt_home_description ul li.not_available {
+	color: #adadad;
+}
+#rlt_home_info_full .rlt_home_description ul li span {
+	position: absolute;
+	left: -10px;
+}
+.rtl #rlt_home_info_full .rlt_home_description ul li span {
+	left: 0;
+	right: -10px;
+}
+/*---.rlt_search_options---*/
+.rlt_search_options {
+	width: 23%;
+	margin: 12px 0 10px 10px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	position: relative;
+	float: left;
+}
+.rtl .rlt_search_options {
+	left: -85px;
+}
+.rlt_search_options .search_results {
+	position: absolute;
+	top: -36px;
+	font-size: 16px;
+	left: 2px;
+}
+.rlt_search_options .search_results span {
+	font-weight: 600;
+	margin: 0 -2px;
+}
+.rlt_search_options input[type="submit"] {
+	background: url('../images/update.png') 150px 13px no-repeat #F26E50;
+	margin-top: 8px;
+	margin-bottom: 9px;
+	font-size: 13px;
+	padding: 10px 23px 11px 0;
+}
+.rlt_search_options input[type="submit"]:hover {
+	background: url('../images/update.png') 150px 13px no-repeat #f29580;
+}
+.rlt_search_options input.min,
+.rlt_search_options input.max {
+	font-weight: 700;
+	width: 10px !important;
+	display: inline !important;
+	background: none;
+	border: none;
+	margin: 0 !important;
+	padding: 0 3px;
+}
+.rlt_search_options input,
+.rlt_search_options select {
+	width: 200px;
+	margin: 10px 10px 0;
+	padding: 8px 5px 9px 10px;
+	font-size: 13px;
+}
+.rlt_search_options .select img {
+	top: 13px;
+	width: 35px;
+	height: 35px;
+}
+.rlt_search_options input[type="text"],
+.rlt_search_options input[type="email"] {
+	width: 180px;
+}
+.rlt_search_options input[type="text"] {
+	margin-top: 10px;
+}
+.rlt_search_options .rlt_prices span {
+	font-weight: 700;
+	padding: 0 3px;
+}
+.rlt_search_options .widget_realty_widget,
+.rlt_search_options .rlt_tab_wrapper #rlt_body_tabs,
+.rlt_search_options #main_tabs,
+.rlt_search_options .rlt_tab_block .cover {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+.rlt_search_options > .widget .rlt_tab_block .bathrooms, 
+.rlt_search_options > .widget .rlt_tab_block .bedrooms,
+.rlt_search_options > .widget .rlt_tab_block .property {
+	width: 200px !important;
+}
+/*--end of .rlt_search_options---*/
+
+/*---Home_info's---*/
+.rlt_home_full_wrapper {
+	padding: 50px 0 30px;
+	position: relative;
+}
+.rlt_home_full_wrapper .rlt_search_options {
+	clear: left;
+}
+.rlt_home_full_wrapper > .rlt_search_options {
+	margin: 10px 0 20px 0;
+}
+#rlt_home_info_full {
+	position: relative;
+	width: 460px;
+	margin: 73px 0 33px 33px;
+	display: inline-block;
+	color: #4b5157;
+}
+.rlt_back_to_results {
+	min-width: 200px;
+	margin-top: 10px;
+	text-align: center;
+}
+.rlt_back_to_results a,
+.rlt_back_to_results a.more {
+	background: #3aa1be;
+	margin: 0;
+	padding: 10px 0 12px;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.rlt_back_to_results:hover a,
+.rlt_back_to_results:hover a.more {
+	background: #3aa1be;
+	opacity: .7;
+}
+.rlt_home_info_full {
+	float: right;
+	clear: none !important;
+	margin: 10px 0;
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+}
+.rlt_home_info_full.rlt_search_options {
+	background: none repeat scroll 0 0 #fff;
+}
+.rlt_home_info_full .rlt_home_preview {
+	margin: 0;
+	padding: 10px 5%;
+	border: none;
+	width: 90%;
+}
+.rlt_home_info_full .rlt_home_preview .rlt_home_info {
+	margin-top: 0;
+}
+.rlt_home_info_full .rlt_home_preview .rlt_home_info h2,
+.rlt_home_info_full .rlt_home_preview .rlt_home_info h3,
+.rlt_home_info_full .rlt_home_preview .rlt_home_info h4 {
+	padding: 10px 8px;
+}
+.rlt_home_info_full .rlt_home_preview .rlt_home_info ul {
+	padding-top: 3px;
+}
+.rlt_home_info_full .rlt_home_preview .home_footer a.sale,
+.rlt_home_info_full .rlt_home_preview .home_footer a.rent {
+	padding-left: 15px;
+}
+.rlt_home_info_full input {
+	margin: 7px 8px 3px 9px;
+	padding-left: 9px;
+}
+.rlt_home_info_full input[type="text"],
+.rlt_home_info_full input[type="email"] {
+	width: 181px;
+}
+.rlt_home_info_full input[type="submit"] {
+	margin-top: 6px;
+	margin-bottom: 19px;
+	background: #3a75be;
+	padding: 10px 0 11px;
+	min-width: 201px;
+}
+.rlt_home_info_full input[type="submit"]:hover {
+	background: #3a75be;
+	opacity: .7;
+}
+.rlt_home_info_full h3 {
+	font-size: 14px;
+	font-weight: 700;
+	padding: 34px 9px 0;
+	margin: 0;
+}
+.rlt_home_info_full p {
+	line-height: 21px;
+}
+.rlt_home_content_tab {
+	z-index: -1;
+}
+.rlt_home_content_tab.active {
+	display: block;
+	z-index: 1;
+}
+/*.rlt_home_content_tab:not(.active) > div {
+	height: 0 !important;
+}*/
+.rlt_home_content_tab #map-canvas,
+.rlt_home_content_tab #map-canvas2 {
+	height: 100%;
+	width: 100%;
+}
+#rlt_home_info_full .rlt_home_content_full .rlt_tabs {
+	left: -5px;
+	top: -60px;
+}
+#rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+	width: 140px;
+	margin-left: 5px;
+	margin-right: 4px;
+	display: block;
+	float: left;
+}
+#rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding: 16px 0 26px 1px;
+}
+.rlt_home_content_3 #map-canvas2 {
+	height: 100%;
+	width: 100%;
+}
+#page #sidebar + #content .rlt_home_content_2,
+#page #sidebar + #content .rlt_home_content_3 {
+	visibility: hidden;
+}
+#page #sidebar + #content .rlt_home_content_2.active,
+#page #sidebar + #content .rlt_home_content_3.active {
+	visibility: visible;
+}
+/*---end of home_info's---*/
+
+/*---#Home previews---*/
+.rlt_back_to_results a,
+.rlt_back_to_results a.more {
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	z-index: 2;
+}
+.rlt_search_options + #rlt_home_preview {
+	max-width: 715px;
+	width: 100%;
+	display: inline-block;
+	margin-left: 0;
+	margin-top: 1px;
+	position: relative;
+	left: 2px;
+	padding-left:5px;
+}
+#rlt_home_preview {
+	position: relative;
+	margin-left: -7px;
+}
+#rlt_home_preview .more_rooms {
+	text-align: center;
+	margin-top: 24px;
+	clear: both;
+}
+#rlt_home_preview .more_rooms a.more {
+	font-size: 13px;
+	padding: 10px 82px 12px 68px;
+	margin-left: 7px;
+	background: url('../images/cross.png') 148px 13px no-repeat #F26E50;
+}
+#rlt_home_preview .more_rooms a.more:hover {
+	background: url('../images/cross.png') 148px 13px no-repeat #f29580;
+}
+.ltr #rlt_home_preview .view_more {
+	float: right;
+	text-transform: uppercase;
+	position: absolute;
+	right: 3px;
+	top: -24px;
+}
+.rtl #rlt_home_preview .view_more {
+	float: right;
+	text-transform: uppercase;
+	position: absolute;
+	left: 3px;
+	top: -24px;
+}
+.rlt_home_preview {
+	float: left;
+	text-align: center;
+	margin: 11px 0 7px 1%;
+	width: 30.3%;
+	background: #FFF;
+	padding: 1%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: .5% solid #eaebec;
+}
+.home .rlt_home_preview {
+	width: 22%;
+}
+.home #secondary .rlt_home_preview {
+	width: 100%;
+}
+.rtl .rlt_home_preview {
+	float: right;
+}
+.rlt_home_info_full .rlt_home_preview {
+	float: none;
+}
+.rlt_home_preview.first {
+	clear: both;
+}
+#rlt_home_preview .rlt_home_preview:hover {
+	border: 0.5% solid #FFF;
+	background: #F3F3F3;
+}
+#rlt_home_preview .rlt_home_preview:hover .rlt_home_info {
+	background: #FFF;
+}
+#rlt_home_preview .rlt_home_preview:hover .rlt_home_info h4 {
+	color: #F26E50;
+}
+#rlt_home_preview .rlt_home_preview .home_footer a.sale:hover {
+	background: #34393e;
+}
+.rlt_home_preview .home_footer a.rent:hover {
+	background: #5cbe3a;
+}
+.rlt_home_preview img {
+	width: 100%;
+}
+.rlt_home_info {
+	background: #F3F3F3;
+	text-align: left;
+	max-width: 100%;/* --- 200px; ---*/
+	margin: 7px 0 11px;
+	font-size: 13px;
+}
+.rlt_home_info h2,
+.rlt_home_info h3,
+.rlt_home_info h4 {
+	margin: 0;
+	font-size: 14px;
+	padding: 9px 8px;
+	color: #34393e;
+	border-bottom: 1px dashed #a9abad;
+	font-weight: 700;
+}
+.rlt_home_info h2 a,
+.rlt_home_info h3 a,
+.rlt_home_info h4 a {
+	word-wrap: break-word;
+}
+.rlt_home_info h2 a:hover,
+.rlt_home_info h3 a:hover,
+.rlt_home_info h4 a:hover {
+	color: #f26e50;
+}
+.rlt-nothing-found h2 {
+	padding: 140px 0 50px;
+	text-align: center;
+}
+.rlt_home_info ul {
+	list-style: none;
+	color: #4b5157;
+	padding: 4px 5px 11px 10px;
+	margin: 0;
+}
+.rlt_home_info ul li {
+	padding: 7px 0 0 25px;
+	word-wrap: break-word;
+}
+.rlt_home_info ul li:first-child {
+	background: url('../images/home_location.jpg') 10px 11px no-repeat;
+}
+.rlt_home_info ul li:first-child + li {
+	background: url('../images/home_bed.jpg') 8px 11px no-repeat;
+}
+.rlt_home_info ul li:first-child + li + li {
+	background: url('../images/home_area.jpg') 9px 12px no-repeat;
+}
+.rlt_home_preview .home_footer {
+	text-align: left;
+}
+.rlt_home_preview .home_footer a {
+	display: inline-block;
+}
+.rtl .rlt_home_preview .home_footer a {
+	float: right;
+}
+.rlt_home_preview a.sale,
+.rlt_home_preview a.rent {
+	color: #FFF;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 3px 15px 3px 16px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	text-transform: capitalize;
+}
+.rlt_home_preview a.sale {
+	background: #3aa1be;
+}
+.rlt_home_preview a.rent {
+	background: #3a75be;
+}
+.rlt_home_preview a.add {
+	height: 22px;
+	width: 21px;
+	background: url('../images/add.png') no-repeat #F26E50;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	margin: 0 0 0 10px;
+	position: relative;
+	top: -1px;
+	display: none; /*For now*/
+}
+.rlt_home_preview a.add:hover {
+	background: url('../images/add.png') no-repeat #f29580;
+}
+.rlt_home_preview .home_footer span.home_cost {
+	float: right;
+	font-size: 17px;
+	font-weight: 700;
+	display: inline;
+	margin-top: -11px;
+}
+.rlt_hide_price .rlt_home_preview .home_footer span.home_cost {
+	display: none;
+}
+.rlt_home_preview .home_footer span.home_cost sup {
+	position: relative;
+	font-size: 9px;
+	top: 2px;
+	line-height: 0;
+	vertical-align: super;
+}
+.rlt_widget_content .rlt_home_info ul li {
+	padding: 7px 0 0 25px;
+	word-wrap: break-word;
+}
+/*
+ *
+ * Custom theme styles
+ *
+*/
+
+/* realestate theme */
+body #primary .rlt_recent_items_widget .widget_content .rlt_home_preview {
+	margin-left: 25px;
+}
+body #primary .rlt_recent_items_widget .widget_content .rlt_home_preview:hover {
+	margin-left: 20px;
+}
+body #primary .rlt_recent_items_widget .widget_content #rlt_home_preview {
+	margin-left: -21px;
+}
+body #primary > .widget .rlt_tab_wrapper #rlt_body_tabs {
+	margin-top: 0;
+}
+body #primary > .widget #main_tabs .rlt_tab_block input[type="text"] {
+	width: 65.4%;
+	height: 52px;
+	margin: 10px 1%;
+	float: left;
+}
+#primary > .widget_realty_widget #main_tabs .rlt_tab_block_2 #rlt_location {
+	width: 98%;
+}
+#primary > .widget_realty_widget #main_tabs .select2-container {
+	margin: 10px 1%;
+}
+#primary > .widget_realty_widget #main_tabs .rlt_tab_block_1 .select2-container.property {
+	float: right;
+}
+#primary > .widget_realty_widget #main_tabs .rlt_prices {
+	width: 43.4%;
+	border: none;
+	margin: 0;
+	float: left;
+	padding: 0 1%;
+}
+#primary > .widget .rlt_tab_block input[type="submit"] {
+	float: right;
+	width: 7.7%;
+	margin: 10px 1%;
+}
+#primary > .widget .rlt_tab_block select {
+	width: 180px;
+}
+#primary > .widget .rlt_tab_block.rlt_tab_block_1 .property {
+	width: 30.1% !important;
+}
+#primary > .widget .rlt_tab_block.rlt_tab_block_2 .property {
+	width: 43% !important;
+}
+#primary > .widget .rlt_tab_block .bathrooms,
+#primary > .widget .rlt_tab_block .bedrooms {
+	width: 20% !important;
+}
+#primary > .widget .rlt_tab_block.for_rent select.property {
+	width: 390px;
+}
+#primary > .widget .rlt_tabs .tab {
+	margin-left: 7px;
+}
+#primary > .widget #rlt_body_tabs #main_tabs {
+	max-width: 960px;
+	width: 100%;
+}
+#primary > .widget .rlt_prices .rlt_scroller {
+	margin-bottom: 16px;
+}
+#heading .realty_pro_slider .slide_holder.slide_image {
+	top: -292px !important;
+}
+.rlt_realestate #heading #realty_heading_slider_holder .realty_slide,
+.rlt_realestate.home #heading,
+.rlt_realestate.page-template-realestate-home-php #heading {
+	height: 330px !important;
+}
+.page-template-realestate-home-php #heading img.wp-post-image {
+	left: 0;
+	top: 0;
+}
+#secondary .widget_realty_widget{
+	margin-top: 95px !important;
+}
+/* archy */
+.rlt_archy .rlt_tab_block .archy-select {
+	display: none;
+}
+.rlt_archy .rlt_tabs .tab {
+	padding-left: 34px;
+	padding-right: 34px;
+}
+.rlt_archy .rlt_search_options .tab.active {
+	padding: 16px 14px 25px;
+}
+.rlt_archy .rlt_search_options .tab {
+	padding: 16px 14px 16px;
+}
+.rlt_archy #rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding-bottom: 29px;
+}
+
+/* best */
+.rlt_best .rlt_tab_block .best-select {
+	display: none;
+}
+.rlt_best .best-witget-right-sidebar .rlt_tab_wrapper {
+	width: 249px;
+}
+.rlt_best .rlt_home_preview {
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+	box-sizing: unset;
+	-moz-box-sizing: unset;
+}
+.rlt_best .rlt_search_options.rlt_home_info_full .rlt_home_preview {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+}
+.rlt_best .rlt_tabs .tab {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+/* bicubic */
+.rlt_bicubic .rlt_tab_block .bicubic-select {
+	display: none;
+}
+.rlt_bicubic #main_tabs .rlt_tab_block input[type="submit"] {
+	margin-left: 0;
+}
+.rlt_bicubic .rlt_search_options + #rlt_home_preview {
+	width: 710px;
+}
+.rlt_bicubic .rlt_tabs .tab.active {
+	padding-bottom: 28px;
+}
+.rlt_bicubic #rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding-bottom: 32px;
+}
+.rlt_bicubic .rlt_home_info ul li {
+	padding: 7px 0 0 25px !important;
+}
+.rlt_bicubic .rlt_home_info ul {
+	margin: 0 !important;
+	padding: 4px 5px 11px 10px !important;
+}
+.rlt_bicubic .widget_realty_recent_items_widget #rlt_home_preview {
+	padding-left: 50px;
+}
+
+/* Blogotron */
+.rlt_blogotron #property_sale_search_form .select-form[class^='select-form'],
+.rlt_blogotron #property_rent_search_form .select-form[class^='select-form'] {
+	display: none;
+}
+.rlt_blogotron .rlt_home_full_wrapper .view_more.sort_by {
+	right: 6px;
+	top: -24px;
+	position: absolute;
+}
+
+/* Cafe */
+#property_sale_search_form .cafe-select,
+#property_rent_search_form .cafe-select {
+	display: none;
+}
+.cafe-main-and-sidebar .widget_realty_widget #main_tabs .rlt_tab_block input[type="submit"],
+.cafe-footer-widget-area-wrapper .widget_realty_widget #main_tabs .rlt_tab_block input[type="submit"] {
+	border-radius: 2px;
+}
+.rlt_cafe .rlt_home_preview {
+	border: 1px solid #f3f3f3;
+}
+.rlt_cafe #rlt_home_preview .rlt_home_preview:hover {
+	border-width: 3px;
+	margin: 9px -2px 5px 10px;
+}
+.cafe-site-wrapper a.page-numbers {
+	color: #f26e50;
+}
+.rlt_cafe .cafe-footer-widget-area .rlt_tabs .tab {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+/* camp */
+.rlt_camp .rlt_tab_block .camp-select-main {
+	display: none;
+}
+.rlt_camp #rlt_home_preview .rlt_home_preview {
+	border: 1px solid #dadada;
+}
+.rlt_camp .rlt_search_options.rlt_home_info_full .rlt_home_preview {
+	border: none;
+}
+.rlt_camp #rlt_home_preview .rlt_home_preview:hover {
+	margin: 11px 0 7px 12px;
+}
+.rlt_camp #main_tabs .rlt_tab_block input[type="text"] {
+	overflow: hidden;
+}
+.rlt_camp #main_tabs .rlt_prices {
+	width: auto;
+}
+.rlt_camp #main_tabs .select2-container {
+	width: 100% !important;
+}
+.rlt_camp .widget_realty_widget {
+	padding: 0;
+	background: none;
+	border: none;
+}
+.rlt_camp .rlt_tab_block {
+	margin-bottom: 0;
+}
+.rlt_camp .content.rlt-clearfix {
+	float: none;
+	width: auto;
+}
+.rlt_camp .rlt_home_preview {
+	border: 1px solid #dadada;
+}
+/* Central */
+.rlt_central .page-wrapper #page-content .widget_realty_widget {
+	border: 0;
+	box-shadow: none;
+}
+.rlt_central #page-content .rlt_tab_wrapper,
+.rlt_central #page-content .widget_realty_widget .rlt_tab_wrapper #rlt_body_tabs,
+.rlt_central #page-content .widget_realty_widget #main_tabs,
+.rlt_central #page-content .widget_realty_widget .rlt_tabs,
+.rlt_central #page-content .widget_realty_widget form > div,
+.rlt_central #page-content .widget_realty_widget form .rlt_prices div,
+.rlt_central #page-content .widget_realty_widget form .select2-container,
+.rlt_central #page-content .widget_realty_widget form .select2-choice div,
+.rlt_central #page-content .widget_realty_widget .clear,
+.rlt_central #page-content .widget_realty_widget .rlt_back_to_results,
+.rlt_central #page-content .widget_realty_recent_items_widget #rlt_heading_recent_items,
+.rlt_central #page-content .widget_realty_recent_items_widget .widget_content,
+.rlt_central #page-content .widget_realty_recent_items_widget #rlt_home_preview,
+.rlt_central #page-content .widget_realty_recent_items_widget .view_more,
+.rlt_central #page-content .widget_realty_recent_items_widget .rlt_home_preview,
+.rlt_central #page-content .widget_realty_recent_items_widget .rlt_home_info,
+.rlt_central #page-content .widget_realty_recent_items_widget .home_footer,
+.rlt_central #page-content .widget_realty_recent_items_widget .clear {
+	padding: 0;
+}
+.rlt_central .widget_realty_widget form .select2-container {
+	height: auto;
+	opacity: 1;
+}
+.rlt_central .widget_realty_widget form .sel-styled-cont {
+	display: none;
+}
+.rlt_central .widget_realty_widget .rlt_tab_wrapper,
+.rlt_central .rlt_search_options.rlt_home_info_full,
+.rlt_central #rlt_home_preview .rlt_home_preview {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.06);
+}
+.rlt_central #rlt_home_preview .view_more.sort_by {
+	top: -26px;
+	position: absolute;
+	right: 18px;
+}
+.rlt_central .rlt_home_full_wrapper #rlt_home_info_full {
+	margin-top: 66px;
+}
+.rlt_central .rlt_home_full_wrapper #rlt_home_info_full .rlt_home_content_full .rlt_tabs {
+	top: -56px;
+}
+.rlt_central .widget-area .widget_realty_widget #main_tabs .rlt_tab_block input[type="submit"] {
+	border-radius: 2px;
+}
+.rlt_central .widget-area .widget_realty_widget .tab {
+	padding: 16px 20px;
+}
+.rlt_central .widget-area .widget_realty_widget .tab.active {
+	padding: 16px 20px 25px;
+}
+.rlt_central .page-wrapper #page-content .widget-area .widget_realty_widget #rlt_location {
+	border-radius: 2px;
+}
+.rlt_central #page-content .widget_realty_recent_items_widget #rlt_home_preview {
+	margin: 0;
+}
+.rlt_central #page-content .widget_realty_recent_items_widget #rlt_home_preview .rlt_home_preview {
+	padding: 10px;
+	margin-left: 0;
+	box-shadow:none;
+}
+.rlt_central #page-content .widget_realty_recent_items_widget #rlt_home_preview .rlt_home_preview:hover {
+	border-width:1px;
+	padding:9px;
+	margin:11px 0 7px 0;
+}
+/* city-informer */
+.rlt_city-informer #property_sale_search_form a.selectBox,
+.rlt_city-informer #property_rent_search_form a.selectBox {
+	display: none !important;
+}
+.rlt_city-informer .content.rlt-clearfix {
+	width: 940px;
+	margin: 0px auto;
+}
+
+/* cybergames */
+.rlt_cybergames .rlt_tab_block .cbg-select {
+	display: none;
+}
+.rlt_cybergames .rlt_home_info ul li {
+	color: #5e5e5e;
+}
+.rlt_cybergames .rlt_home_info ul li {
+	padding: 7px 0 0 25px;
+}
+.rlt_cybergames aside form#property_sale_search_form,
+.rlt_cybergames aside form#property_rent_search_form {
+	height: auto;
+	background-image: none;
+}
+.rlt_cybergames aside form#property_sale_search_form input[type="submit"],
+.rlt_cybergames aside form#property_rent_search_form input[type="submit"] {
+	opacity: 1;
+}
+.rlt_cybergames .rlt_tabs .tab {
+	padding-left: 13px;
+	padding-right: 13px;
+}
+.rlt_cybergames .content.rlt-clearfix {
+	float: none;
+	margin: 0;
+	background-color: #2c3136;
+	padding: 0 8px;
+}
+.rlt_cybergames .content.rlt-clearfix + .footer {
+	background-color: #13181e;
+}
+.rlt_cybergames #rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding-bottom: 28px;
+}
+.rlt_cybergames .rlt_home_full_wrapper #rlt_home_info_full {
+	margin-left: 20px;
+}
+.rlt_cybergames .rlt_search_options + #rlt_home_preview {
+	width: 696px;
+}
+
+/* daily-stories */
+.rlt_daily-stories .rlt_tab_block .dlstrs-select {
+	display: none;
+}
+.rlt_daily-stories .rlt_home_preview {
+	border: 1px solid #dddddd;
+}
+.rlt_daily-stories .rlt_search_options.rlt_home_info_full .rlt_home_preview {
+	border: none;
+}
+.rlt_daily-stories .rlt_home_preview:hover {
+	border-width: 6px !important;
+}
+.rlt_daily-stories .dlstrs-widget .rlt_tab_wrapper {
+	width: 270px;
+}
+.rlt_daily-stories .dlstrs-widget .rlt_tabs .tab {
+	padding-left: 28px;
+	padding-right: 28px;
+}
+.rlt_daily-stories .rlt_search_options input[type="submit"] {
+	line-height: 1;
+}
+.rlt_daily-stories .content.rlt-clearfix {
+	margin-top: 20px;
+}
+
+/* green-garden */
+.rlt_green-garden .rlt_tab_block .grngrdn-select {
+	display: none;
+}
+.rlt_green-garden .rlt_home_preview {
+	border: #699f3d 1px solid;
+}
+.rlt_green-garden .rlt_search_options.rlt_home_info_full .rlt_home_preview {
+	border: none;
+}
+.rlt_green-garden .rlt_home_preview:hover {
+	border-width: 6px !important;
+}
+.rlt_green-garden #grngrdn-sidebar #main_tabs .rlt_tabs .tab {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.rlt_green-garden .rlt-clearfix .widget_realty_widget.widget > * {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/* journalism */
+.rlt_tab_block .journalism-selectdiv {
+	width: 100%;
+	background-position: -58px -5px;
+}
+.rlt_tab_block .journalism-select-content-open {
+	width: 100%;
+}
+.rlt_journalism #sidebar .rlt_tab_wrapper .journalism-form {
+	margin-left: 0;
+}
+.rlt_journalism .rlt_tabs .tab.active {
+	padding-bottom: 27px;
+}
+.rlt_journalism #rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding-bottom: 29px;
+}
+.rlt_journalism .rlt_back_to_results {
+	width: 180px;
+}
+.rlt_journalism .rlt-clearfix .widget_realty_widget {
+	background: none;
+}
+.rlt_journalism #main_tabs .rlt_tabs .tab {
+	padding-left: 11px;
+	padding-right: 11px;
+}
+.rlt_journalism .widget .rlt_home_info ul li {
+	padding: 7px 0 0 25px;
+}
+.rlt_journalism .rlt_search_options .search_results {
+	left: 20px;
+}
+.rlt_journalism #rlt_home_preview .view_more {
+	margin-right: 20px;
+}
+
+/* kingdom */
+.rlt_kingdom #main_tabs .rlt_tabs .tab {
+	padding-left: 17px;
+	padding-right: 17px;
+}
+.rlt_kingdom .rlt_prices {
+	color: #7C90AB;
+}
+.rlt_kingdom .sidebar .widget-container .rlt_home_info ul {
+	background: none;
+}
+.rlt_kingdom .sidebar .rlt_home_preview {
+	width: 191px;
+}
+.rlt_kingdom .rlt_home_info a {
+	color: inherit;
+}
+.rlt_kingdom .rlt_search_options + #rlt_home_preview {
+	width: 465px;
+	padding: 10px 77px 10px 78px;
+	background-color: #2366aa;
+	margin: -50px 0 0 38px;
+}
+.rlt_kingdom .rlt_home_full_wrapper #rlt_home_info_full {
+	margin-left: 18px;
+}
+.rlt_kingdom .rlt_home_info_full .rlt_home_preview {
+	width: 162px;
+}
+
+/* medical-center */
+.rlt_tab_block .mdclcntr-select {
+	display: none;
+}
+.rlt_medical-center .rlt_home_full_wrapper .rlt_home_preview {
+	border: solid 1px #dddddd;
+}
+.rlt_medical-center .rlt_search_options.rlt_home_info_full .rlt_home_preview {
+	border: none;
+}
+.rlt_medical-center .rlt_home_full_wrapper .rlt_home_preview:hover {
+	border-width: 6px !important;
+}
+.rlt_medical-center .rlt_home_full_wrapper .widget.widget_realty_widget {
+	padding: 0;
+}
+.rlt_medical-center #rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding-bottom: 29px;
+}
+.rlt_medical-center #mdclcntr_sidebar .rlt_tabs .tab {
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.rlt_medical-center .rlt_tabs .tab.active {
+	padding-bottom: 27px;
+}
+
+/* New Life */
+#newlife-container #sidebar .widget_realty_widget #rlt_body_tabs {
+	margin-top: 58px;
+	text-align: left;
+}
+#newlife-container #sidebar .widget_realty_widget #main_tabs .rlt_tabs {
+	top: -41px;
+}
+#newlife-container #sidebar .widget_realty_widget #main_tabs .tab {
+	padding: 16px 15px;
+}
+#newlife-container #sidebar .widget_realty_widget #main_tabs .tab.active {
+	padding: 16px 15px 25px;
+}
+#newlife-container #sidebar .widget_realty_widget #main_tabs #rlt_location {
+	margin: 0 0 9px;
+}
+#newlife-container .content.rlt-clearfix {
+	width: 98%;
+}
+#newlife-container .view_more.sort_by {
+	right: 6px;
+	top: -24px;
+	position: absolute;
+}
+#newlife-container #rlt_home_info_full .rlt_home_content_full .rlt_tabs {
+	left: -5px;
+	top: -56px;
+}
+
+/* non-profit */
+.rlt_non-profit .rlt_tab_block .nonprofit-select {
+	display: none;
+}
+.rlt_non-profit .rlt_home_preview,
+.rlt_non-profit .widget_realty_widget {
+	box-sizing: unset;
+	-moz-box-sizing: unset;
+}
+.rlt_non-profit .rlt_home_info ul li {
+	padding: 7px 0 0 25px;
+}
+.rlt_non-profit .nonprofit-widget .rlt_tabs .tab {
+	padding-left: 21px;
+	padding-right: 21px;
+}
+.rlt_non-profit .rlt_home_preview img {
+	width: 200px;
+	height: 110px;
+}
+.rlt_non-profit .content.rlt-clearfix {
+	margin: 20px auto;
+	width: 100%;
+	max-width: 960px;
+	padding: 0;
+	float: none;
+}
+.rlt_non-profit .content.rlt-clearfix .widget_realty_widget {
+	padding: 0;
+	border: none;
+	background: none;
+}
+.rlt_non-profit .rlt_home_full_wrapper a.next.page-numbers {
+	float: none;
+}
+
+/* Phat */
+.rlt_phat .widget_realty_widget .selectBox-dropdown {
+	display: none !important;
+}
+.rlt_phat .sidebar .widget_realty_widget #main_tabs .tab {
+	padding-left: 34px;
+	padding-right: 34px;
+}
+.rlt_phat .widget_realty_widget .rlt_prices {
+	color: #48565f;
+}
+.rlt_phat .content.rlt-clearfix {
+	padding-left: 0 !important;
+}
+.rlt_phat #rlt_home_preview .rlt_home_preview h4 a {
+	color: #34393e;
+	text-decoration: none;
+	word-wrap: break-word;
+}
+.rlt_phat .widget_realty_recent_items_widget #rlt_home_preview .home_cost,
+.rlt_phat #rlt_home_info_full .rlt_home_description h3,
+.rlt_phat #rlt_home_info_full .rlt_home_description h4 {
+	color: #51575b;
+}
+.rlt_phat .sidebar .widget .widget_realty_recent_items_widget #rlt_home_preview .rlt_home_preview {
+	width: 248px;
+}
+.rlt_phat .sidebar .widget .widget_realty_recent_items_widget #rlt_home_preview .rlt_home_preview .rlt_home_info {
+	max-width: 248px;
+}
+.rlt_phat .rlt_search_options .widget_realty_widget #main_tabs #rlt_location {
+	border-radius: 3px;
+}
+.rlt_phat .rlt_home_full_wrapper {
+	width: 950px;
+}
+.rlt_phat .rlt_search_options .widget_realty_widget {
+	padding-top:0;
+}
+.rlt_phat.search .rlt_search_options .widget_realty_widget {
+	padding-top:15px;
+}
+.rlt_phat .sidebar .widget .widget_realty_recent_items_widget #rlt_home_preview {
+	margin-left: 0;
+}
+.rlt_phat .sidebar .widget .widget_realty_recent_items_widget #rlt_home_preview .view_more {
+	padding-right: 10px;
+}
+
+/* Progression */
+.rlt_progression .widget_realty_widget form .j-select {
+	display: none !important;
+}
+.rlt_progression #sidebar .widget_realty_widget #main_tabs #rlt_location {
+	margin: 0 0 9px;
+}
+.rlt_progression #sidebar .widget_realty_widget #main_tabs .tab.active {
+	padding: 16px 15px 25px;
+}
+.rlt_progression #sidebar .widget_realty_widget #main_tabs .tab {
+	padding: 16px 15px;
+}
+.rlt_progression #sidebar .widget_realty_widget #rlt_body_tabs {
+	margin-top: 58px;
+	text-align: left;
+}
+.rlt_progression .widget_realty_widget #main_tabs .rlt_tabs {
+	top: -41px;
+}
+.rlt_progression .content.rlt-clearfix {
+	margin: 0 auto 58px;
+	width: 960px;
+	word-wrap: break-word;
+}
+.rlt_progression .content.rlt-clearfix .view_more.sort_by {
+	right: 6px;
+	top: -24px;
+	position: absolute;
+}
+.rlt_progression .rlt_home_preview {
+	border: 1px solid #f3f3f3;
+}
+.rlt_progression .rlt_search_options.rlt_home_info_full .rlt_home_preview {
+	border: none;
+}
+.rlt_progression #rlt_home_preview .rlt_home_preview:hover {
+	border-width: 6px;
+}
+.rlt_progression #sidebar .widget_realty_recent_items_widget .rlt_home_preview {
+	margin: 0 0 7px;
+}
+.rlt_progression #sidebar .widget_realty_recent_items_widget .rlt_home_preview:hover {
+	margin: -5px 0 2px -5px;
+}
+.rlt_progression #sidebar .widget_realty_recent_items_widget #rlt_heading_recent_items #rlt_home_preview {
+	margin-left: 0;
+	position: relative;
+	padding: 25px 25px 23px;
+}
+.rlt_progression .content.rlt-clearfix #rlt_home_info_full .rlt_home_content_full .rlt_tabs {
+	left: -5px;
+	top: -56px;
+}
+.rlt_progression #sidebar .widget_realty_recent_items_widget #rlt_home_preview .rlt_home_info ul {
+	width: auto;
+	padding: 4px 5px 11px 10px;
+}
+.rlt_progression #sidebar .widget_realty_recent_items_widget #rlt_heading_recent_items h2 {
+	background: none repeat scroll 0 0 rgb(40, 135, 184);
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 0;
+	margin: 0;
+	padding: 18px 30px;
+	text-transform: uppercase;
+	width: 210px;
+	word-spacing: 0;
+}
+
+/* Reddish */
+.rlt_reddish .rlt_tab_block .rddsh_sel_styled_cont {
+	display: none;
+}
+.rlt_reddish #secondary .widget #rlt_heading_recent_items #rlt_home_preview {
+	margin-left: 0;
+}
+.rlt_reddish #secondary .widget #rlt_heading_recent_items #rlt_home_preview .rlt_home_preview {
+	margin-left: 5px;
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+	width: 270px;
+}
+.rlt_reddish .rlt_search_options + #rlt_home_preview .rlt_home_preview {
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+}
+.rlt_reddish #secondary .widget #rlt_heading_recent_items #rlt_home_preview .rlt_home_preview:hover {
+	margin-left: 0;
+}
+.rlt_reddish #secondary #rlt_body_tabs #main_tabs .tab {
+	padding-left: 34px;
+	padding-right: 34px;
+}
+.rlt_reddish #rlt_body_tabs #main_tabs .tab.active {
+	padding-bottom: 27px;
+}
+.rlt_reddish #rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding-bottom: 31px;
+}
+.rlt_reddish #main_tabs .rlt_tab_block form #rlt_location {
+	margin-bottom: 5px !important;
+}
+.rlt_reddish .rlt_tab_block form .select2-container.sel_styled {
+	height: auto;
+	opacity: 1;
+}
+.rlt_reddish .rlt_search_options .widget_realty_widget {
+	padding-top:0;
+}
+.rlt_reddish .rlt_home_info_full.rlt_search_options {
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+}
+.rlt_reddish #rlt_home_preview .view_more.sort_by {
+	position: absolute;
+	right: 20px;
+	top: -25px;
+}
+.rlt_reddish .rlt_home_preview img {
+	height: 110px;
+}
+
+/* reposter */
+.rlt_reposter .rlt_home_preview {
+	border: 1px solid #ccc;
+}
+.rlt_reposter .rlt_search_options.rlt_home_info_full .rlt_home_preview {
+	border: none;
+}
+.rlt_reposter #rlt_home_preview .rlt_home_preview:hover {
+	border-width: 6px;
+}
+.rlt_reposter .widget_realty_recent_items_widget .rlt_home_info ul {
+	margin: 0px;
+	border: none;
+	background: none;
+}
+.rlt_reposter .rlt_home_info ul li {
+	padding: 7px 0 0 25px;
+}
+.rlt_reposter .rlt_tab_block .select {
+	display: none;
+}
+.rlt_reposter .widgets .rlt_tab_block input[type='text'],
+.rlt_reposter .widgets .rlt_tab_block input[type='submit'] {
+	width: 100% !important;
+}
+.rlt_reposter .content.rlt-clearfix {
+	width: 940px;
+	margin: 0 auto;
+}
+.rlt_reposter #rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding-bottom: 31px;
+}
+
+/* Simple Classic */
+.rlt_simple-classic #main_tabs form .select_wrap {
+	display: none;
+}
+.rlt_simple-classic .widget_realty_widget #main_tabs form #rlt_location {
+	border-radius: 2px;
+}
+.search #smplclssc_main,
+.single-property #smplclssc_main {
+	overflow: visible;
+}
+#smplclssc_main #rlt_home_preview .view_more.sort_by {
+	position: absolute;
+	top: -25px;
+	right: 15px;
+}
+#smplclssc_main-container .rlt_home_preview img {
+	height: 110px;
+}
+#smplclssc_sidebar .widget_realty_recent_items_widget #rlt_heading_recent_items,
+#smplclssc_sidebar .widget_realty_widget .rlt_tab_wrapper {
+	padding: 0;
+}
+#smplclssc_main .rlt_home_full_wrapper .rlt_search_options.rlt_home_info_full,
+#smplclssc_main #rlt_home_preview .rlt_home_preview {
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+}
+#smplclssc_sidebar .widget_realty_recent_items_widget #rlt_home_preview {
+	margin-left: 0;
+}
+#smplclssc_sidebar .widget_realty_recent_items_widget #rlt_home_preview .view_more + .rlt_home_preview {
+	clear: none;
+}
+#smplclssc_sidebar .widget_realty_recent_items_widget #rlt_home_preview .rlt_home_preview {
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+	width: 265px;
+	margin-left: 5px;
+}
+#smplclssc_sidebar .widget_realty_recent_items_widget #rlt_home_preview .rlt_home_preview:hover {
+	margin-left: 0;
+}
+#smplclssc_sidebar .rlt_home_info ul li {
+	padding: 7px 0 0 25px;
+}
+#smplclssc_sidebar {
+	float: left;
+}
+
+/* templastic */
+.rlt_tab_block .templastic-select {
+	display: none;
+}
+.rlt_templastic .rlt_tab_wrapper input[type='text'] {
+	min-width: 50%;
+	box-shadow: none;
+}
+.rlt_templastic #rlt_home_preview .view_more.sort_by .current {
+	border: none;
+}
+.rlt_templastic .rlt_home_preview {
+	box-shadow: 0 0 6px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 6px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+.rlt_templastic .rlt_search_options.rlt_home_info_full .rlt_home_preview {
+	box-shadow: none;
+}
+.rlt_templastic .templastic-sidebar-part #rlt_home_preview {
+	margin-left: -11px;
+}
+.rlt_templastic .rlt_tab_block .select2-choice:hover {
+	border-width: 3px !important;
+}
+.rlt_templastic .templastic-sidebar-part .rlt_tab_wrapper #rlt_body_tabs {
+	margin: 90px 0 0 0;
+}
+.rlt_templastic .templastic-sidebar-part #rlt_body_tabs #main_tabs .tab {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+/* travelguide */
+.rlt_travelguide .content.rlt-clearfix {
+	padding-left: 19%;
+	padding-right: 19%;
+}
+.rlt_travelguide .content.rlt-clearfix .widget_realty_widget {
+	width: auto;
+}
+.rlt_travelguide #rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding-bottom: 29px;
+}
+.rlt_travelguide .rlt_home_info ul li {
+	width: auto;
+}
+.rlt_travelguide #rlt_body_tabs #main_tabs .tab {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.rlt_travelguide .footer_widget #rlt_body_tabs #main_tabs .tab {
+	padding-left: 36px;
+	padding-right: 36px;
+}
+
+/* Travel Planet */
+.rlt_travel-planet .rlt_home_full_wrapper .view_more.sort_by {
+	position:absolute;
+	right: 15px;
+	top: -25px;
+}
+.rlt_travel-planet .rlt_home_full_wrapper .rlt_search_options .widget_realty_widget {
+	padding: 0;
+	background-color: transparent;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+}
+.rlt_travel-planet #sidebar.alignright .widget_realty_widget .tab {
+	padding: 16px 20px;
+}
+.rlt_travel-planet #sidebar.alignright .widget_realty_widget .tab.active {
+	padding: 16px 20px 25px;
+}
+.rlt_travel-planet .widget_realty_widget form .trvlplnt-select {
+	display: none;
+}
+
+/* wordpost */
+.rlt_wordpost #sidebar #rlt_body_tabs #main_tabs .tab {
+	padding-left: 29px;
+	padding-right: 29px;
+}
+.rlt_wordpost #rlt_body_tabs #main_tabs .tab {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.rlt_wordpost .rlt_home_preview {
+	border: 1px solid #D9D9D9
+}
+.rlt_wordpost #rlt_home_preview .rlt_home_preview:hover {
+	border-width: 6px;
+}
+.rlt_wordpost .rlt_search_options #main_tabs .rlt_tab_block input[type="submit"] {
+	background-position: 142px 13px;
+}
+
+.rlt_twentyseventeen .rlt_home_info_full .rlt_home_preview,
+.rlt_twentysixteen .rlt_home_info_full .rlt_home_preview,
+.rlt_twentyfifteen .rlt_home_info_full .rlt_home_preview,
+.rlt_twentythirteen .rlt_home_info_full .rlt_home_preview {
+	width: 100%;
+}
+
+/* 2017 theme */
+
+/* 2016 theme */
+.rlt_twentysixteen .site-content {
+	padding: 0 15px;
+}
+.rlt_twentysixteen .rlt_search_options + #rlt_home_preview {
+	max-width: 690px;
+}
+.rlt_twentysixteen .rlt_home_preview .home_footer span.home_cost {
+	float: none;
+}
+
+/* 2015 theme */
+.rlt_twentyfifteen #secondary #widget-area .widget_realty_widget .tab {
+	padding: 16px 20px;
+}
+.rlt_twentyfifteen #secondary #widget-area .widget_realty_widget .tab.active {
+	padding: 16px 20px 25px;
+}
+.rlt_twentyfifteen #secondary #widget-area .widget_realty_recent_items_widget #rlt_home_preview {
+	padding: 0 25px 20px;
+}
+.rlt_twentyfifteen #content .rlt_home_full_wrapper #rlt_home_preview .rlt_home_preview {
+	box-sizing: padding-box;
+}
+.rlt_twentyfifteen #content .rlt_home_full_wrapper #rlt_home_preview .rlt_home_preview::before,
+.rlt_twentyfifteen #content .rlt_home_full_wrapper #rlt_home_preview .rlt_home_preview::after {
+	box-sizing: padding-box;
+}
+.rlt_twentyfifteen #secondary #widget-area .rlt_home_full_wrapper #rlt_home_preview .rlt_home_preview .clear {
+	clear: both;
+	display: block;
+}
+.rlt_twentyfifteen #content .rlt_search_options {
+	margin: 0;
+	width: 100%;
+}
+.rlt_twentyfifteen #content .rlt_search_options .search_results {
+	left: 20px;
+}
+.rlt_twentyfifteen #content .rlt_search_options .widget_realty_widget {
+	margin: 0;
+	padding: 0;
+}
+.rlt_twentyfifteen #content .rlt_search_options.rlt_home_info_full {
+	width: 23%;
+	margin: 12px 0 10px 10px;
+	display: inline-block;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	position: relative;
+}
+.rlt_twentyfifteen #content #rlt_home_preview {
+	width: 100%;
+}
+.rlt_twentyfifteen #content #rlt_home_preview .clear {
+	clear: both;
+	display: block;
+}
+.rlt_twentyfifteen #content .rlt_home_full_wrapper #rlt_home_preview .rlt_home_preview .home_cost {
+	font-size: 12px;
+	line-height: 38px;
+}
+.rlt_twentyfifteen #content .rlt_home_full_wrapper #rlt_home_info_full {
+	box-sizing: unset;
+}
+
+/* 2014 */
+.rlt_twentyfourteen .widget_realty_recent_items_widget h4 a,
+.rlt_twentyfourteen .widget_realty_recent_items_widget .home_cost {
+	color: #4c5256;
+}
+.rlt_twentyfourteen #rlt_body_tabs #main_tabs .tab {
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.rlt_twentyfourteen .widget_realty_widget #main_tabs .rlt_prices {
+	color: #4c5256;
+}
+.rlt_twentyfourteen aside .rlt_search_options .search_results {
+	color: #fff;
+	z-index: 2;
+	left: 10px;
+}
+.rlt_twentyfourteen .rlt_home_full_wrapper #rlt_home_preview .rlt_home_preview,
+.rlt_twentyfourteen .rlt_home_full_wrapper .rlt_search_options.rlt_home_info_full,
+.rlt_twentyfourteen #content-sidebar .rlt_home_preview {
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+}
+.rlt_twentyfourteen #primary-sidebar .widget_realty_recent_items_widget,
+.rlt_twentyfourteen #primary-sidebar .widget_realty_widget {
+	margin-left: -20px;
+}
+.rlt_twentyfourteen #primary-sidebar .widget_realty_widget {
+	width: 205px;
+}
+.rlt_twentyfourteen .rlt_home_full_wrapper .rlt_search_options + #rlt_home_preview {
+	width: 80%;
+}
+.rlt_twentyfourteen .rlt_home_full_wrapper .rlt_search_options.rlt_home_info_full h4 {
+	clear: none;
+}
+.rlt_twentyfourteen .rlt_search_options .widget_realty_widget .rlt_back_to_results a,
+.rlt_twentyfourteen .rlt_search_options .widget_realty_widget .rlt_back_to_results a.more {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	position: relative;
+	z-index: 2;
+}
+.rlt_twentyfourteen .rlt_search_options .widget_realty_widget .rlt_back_to_results a:hover,
+.rlt_twentyfourteen .rlt_search_options .widget_realty_widget .rlt_back_to_results a.more:hover {
+	color: #fff;
+}
+.rlt_twentyfourteen #primary-sidebar .widget_realty_recent_items_widget,
+.rlt_twentyfourteen #primary-sidebar .widget_realty_widget {
+	margin-left: -20px;
+}
+.rlt_twentyfourteen .primary-sidebar #rlt_home_preview,
+.rlt_twentyfourteen .footer-sidebar #rlt_home_preview {
+	margin-left: -16px;
+}
+.rlt_twentyfourteen .site:before {
+	background-color: transparent;
+}
+.rlt_twentyfourteen .rlt_home_full_wrapper {
+	padding: 50px 15px 30px;
+}
+.rlt_twentyfourteen .rlt_home_info_full .rlt_home_preview {
+	width: 90%;
+}
+/* 2013 theme */
+.rlt_twentythirteen .hfeed .content .rlt_home_full_wrapper {
+	max-width: 1040px;
+	margin: 0 auto;
+}
+.rlt_twentythirteen .rlt_home_full_wrapper #rlt_home_preview .rlt_home_preview,
+.rlt_twentythirteen .rlt_home_full_wrapper .rlt_search_options.rlt_home_info_full {
+	-webkit-box-shadow: 0 0 5px #666;
+	box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+}
+.rlt_twentythirteen.single-property .rlt_home_full_wrapper .rlt_search_options.rlt_home_info_full {
+	width: 200px;
+}
+.rlt_twentythirteen .widget-area .rlt_tabs .tab {
+	padding: 16px 25px 16px 27px;
+}
+.rlt_twentythirteen .widget-area .rlt_tabs .tab.active {
+	padding: 16px 26px 25px 30px;
+}
+.rlt_twentythirteen .sidebar-container .rlt_prices,
+.rlt_twentythirteen .sidebar-container .rlt_home_preview .home_cost {
+	color: #141412;
+}
+.rlt_twentythirteen .sidebar-container #rlt_body_tabs #main_tabs .tab {
+	padding-left: 11px;
+	padding-right: 11px;
+}
+.rlt_twentythirteen .widget_realty_widget {
+	padding: 0;
+}
+
+/* 2012 */
+.rlt_twentytwelve .widget-area .rlt_home_preview a.sale,
+.rlt_twentytwelve .widget-area .rlt_home_preview a.rent {
+	color: #fff;
+}
+.rlt_twentytwelve .rlt_tabs .tab.active {
+	padding-bottom: 27px;
+}
+.rlt_twentytwelve #rlt_body_tabs #main_tabs .tab {
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.rlt_twentytwelve #rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab.active {
+	padding-bottom: 31px;
+}
+
+/* 2011 */
+.rlt_twentyeleven .rlt_home_preview {
+	border: 1px solid #ddd;
+}
+.rlt_twentyeleven .rlt_search_options.rlt_home_info_full .rlt_home_preview {
+	border: none;
+}
+.rlt_twentyeleven #rlt_home_preview .rlt_home_preview:hover {
+	border-width: 6px;
+}
+.rlt_twentyeleven .widget-area #rlt_body_tabs #main_tabs .tab {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.rlt_twentyeleven #secondary #rlt_home_preview {
+	margin-left: -30px;
+}
+.rlt_twentyeleven #secondary .widget_realty_widget {
+	margin: 0px -15px 17px -16px;
+}
+.rlt_twentyeleven #secondary #rlt_body_tabs #main_tabs .tab {
+	padding-left: 13px;
+	padding-right: 13px;
+}
+.rlt_twentyeleven .content.rlt-clearfix {
+	margin: 0 auto;
+	width: 940px;
+}
+@media (min-width: 900px) and (max-width: 1350px){
+	.rlt_twentysixteen .widget-area .rlt_tabs .tab {
+		padding: 16px 14px 16px 14px;
+	}
+	.rlt_twentysixteen .widget-area .rlt_tabs .tab.active {
+		padding: 16px 14px 25px 14px;
+	}
+	.rlt_twentyfifteen #secondary #widget-area .widget_realty_widget .tab {
+		padding: 16px 3px;
+}
+	.rlt_twentyfifteen #secondary #widget-area .widget_realty_widget .tab.active {
+		padding: 16px 3px 25px;
+	}
+}
+@media screen and (max-width: 984px) {
+	.rlt_search_options {
+		width: 100%;
+		float: none;
+		margin: 0 30px 0 0;
+	}
+	.rlt_search_options .rlt_tab_block {
+		padding: 30px;
+	}
+	.rlt_search_options + #rlt_home_preview {
+		display: block;
+		left: 0px;
+		padding: 0px;
+		margin: 0 auto;
+	}
+	#rlt_home_preview .view_more.sort_by {
+		top: 0 !important;
+		text-align: right;
+		display: block;
+		position: relative;
+		margin-top: 14px;
+		width: 100%;
+	}
+	.search #rlt_body_tabs #main_tabs .select2-container,
+	.single #rlt_body_tabs #main_tabs .select2-container {
+		width: 100% !important;
+	}
+	#rlt_home_info_full {
+		width: 62% !important;
+		margin-left: 1.5%;
+		margin-right: 1.5%;
+		box-sizing: border-box;
+	}
+	#rlt_home_info_full .rlt_home_content_full {
+		width: 94%;
+		padding: 20px 3% 20px;
+		box-sizing: unset;
+		height: auto;
+		min-height: 265px;
+	}
+	.rlt_home_content_tab .cover {
+		left: -2.5%;
+	}
+	.rlt_home_content_full .home_image img {
+		width: 100%;
+		height: auto;
+	}
+	.rlt_search_options.rlt_home_info_full {
+		width: 32% !important;
+		float: right !important;
+		margin: 10px 1.5% 0;
+		box-sizing: border-box;
+	}
+	.rlt_home_content_tab:not(.active) {
+		height: 0;
+	}
+	.rlt_twentyfifteen #content .widget_realty_widget {
+		display: block;
+	}
+	.rlt_twentyfifteen #content .rlt_search_options .search_results {
+		top: -36px;
+	}
+}
+@media screen and (max-width: 767px) {
+	#primary > .widget .rlt_tab_block.rlt_tab_block_1 .property,
+	#primary > .widget .rlt_tab_block.rlt_tab_block_2 .property,
+	#primary > .widget .rlt_tab_block.rlt_tab_block_1 form > div > *,
+	#primary > .widget .rlt_tab_block.rlt_tab_block_2 form > div > * {
+		width: 100% !important;
+		float: none !important;
+	}
+	#header_wrapper .realestate-site-description {
+		font-size: 11px;
+		padding: 0;
+	}
+	.rlt_home_preview {
+		width: 46%;
+		padding: 1.5%;
+	}
+	.rlt_home_info_full .rlt_home_preview {
+		width: 97.4%;
+		padding: 10px 1.3%;
+	}
+	#rlt_home_info_full {
+		width: 100% !important;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.rlt_search_options.rlt_home_info_full {
+		width: 100% !important;
+		float: none !important;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.home .rlt_home_preview {
+		width: 46%;
+	}
+	.rlt_twentysixteen .rlt_home_full_wrapper,
+	.rlt_twentyfifteen .rlt_home_full_wrapper,
+	.rlt_twentyfourteen .rlt_home_full_wrapper,
+	.rlt_twentythirteen .rlt_home_full_wrapper {
+		padding: 50px 15px 30px;
+		position: relative;
+	}
+	.rlt_twentyfourteen .rlt_home_info_full .rlt_home_preview {
+		width: 97%;
+	}
+}
+@media screen and (max-width: 420px) {
+	.rlt_home_preview {
+		width: 97%;
+		margin-left: 0;
+	}
+	#rlt_home_preview .view_more.sort_by {
+		text-align: center;
+	}
+	#rlt_home_preview .sort_by span {
+		padding: 10px;
+		display: block;
+		text-align: left;
+	}
+	#rlt_home_info_full .rlt_home_content_full .rlt_tabs .tab {
+		width: 30%;
+		margin-left: 2%;
+		margin-right: 2%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.home .rlt_home_preview {
+		width: 98%;
+	}
+	.rlt_tab_wrapper {
+		top: 28px;
+	}
+}
